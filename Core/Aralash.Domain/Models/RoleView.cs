@@ -4,5 +4,5 @@ public class RoleView
 {
     public required string Name { get; set; }
     public string? Description { get; set; }
-    public string? RoleId { get; set; }
+    public string? Id { get; set; }
 }
