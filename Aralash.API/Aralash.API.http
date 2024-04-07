@@ -1,0 +1,6 @@
+@Aralash.API_HostAddress = http://localhost:5049
+
+GET {{Aralash.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

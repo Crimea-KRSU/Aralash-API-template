@@ -1,0 +1,12 @@
+﻿global using MediatR;
+global using Aralash.Utilities;
+global using Aralash.Domain.Abstractions;
+global using Aralash.Domain.Abstractions.Security;
+global using Aralash.Domain.Models;
+global using System.Security.Authentication;
+global using Aralash.App.Abstractions.Command;
+global using Aralash.Domain.Constants;
+global using Aralash.Domain.Entites;
+global using FluentValidation;
+global using FluentValidation.Results;
+global using Microsoft.EntityFrameworkCore;

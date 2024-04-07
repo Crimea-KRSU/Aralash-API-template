@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aralash.API", "Aralash.API\Aralash.API.csproj", "{96733AAD-4A2B-4F91-8092-7FE6B65AB2DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{453ABFE4-5A40-4914-8870-A2B481A77C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aralash.App", "Core\Aralash.App\Aralash.App.csproj", "{B0D63942-B4EE-4D3C-AE29-AC96A9275CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aralash.Domain", "Core\Aralash.Domain\Aralash.Domain.csproj", "{90B5F877-C0AD-4CE6-A2FA-AC62386E26E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{92C18D7C-BE23-4C88-B41A-7BFA1FA9372B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aralash.Infrastructure", "External\Aralash.Infrastructure\Aralash.Infrastructure.csproj", "{58827EAD-A8EB-4A8C-ADA2-0F2CDC00430A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aralash.Presentation", "External\Aralash.Presentation\Aralash.Presentation.csproj", "{CECE4C01-E405-4B7C-90AD-86F134DDF54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aralash.Utilities", "Aralash.Utilities\Aralash.Utilities.csproj", "{35A92DA9-6C47-476C-8B54-B79B2C37E96E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96733AAD-4A2B-4F91-8092-7FE6B65AB2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96733AAD-4A2B-4F91-8092-7FE6B65AB2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96733AAD-4A2B-4F91-8092-7FE6B65AB2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96733AAD-4A2B-4F91-8092-7FE6B65AB2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D63942-B4EE-4D3C-AE29-AC96A9275CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D63942-B4EE-4D3C-AE29-AC96A9275CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D63942-B4EE-4D3C-AE29-AC96A9275CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D63942-B4EE-4D3C-AE29-AC96A9275CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B5F877-C0AD-4CE6-A2FA-AC62386E26E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B5F877-C0AD-4CE6-A2FA-AC62386E26E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B5F877-C0AD-4CE6-A2FA-AC62386E26E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B5F877-C0AD-4CE6-A2FA-AC62386E26E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58827EAD-A8EB-4A8C-ADA2-0F2CDC00430A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58827EAD-A8EB-4A8C-ADA2-0F2CDC00430A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58827EAD-A8EB-4A8C-ADA2-0F2CDC00430A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58827EAD-A8EB-4A8C-ADA2-0F2CDC00430A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECE4C01-E405-4B7C-90AD-86F134DDF54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECE4C01-E405-4B7C-90AD-86F134DDF54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECE4C01-E405-4B7C-90AD-86F134DDF54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECE4C01-E405-4B7C-90AD-86F134DDF54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A92DA9-6C47-476C-8B54-B79B2C37E96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A92DA9-6C47-476C-8B54-B79B2C37E96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A92DA9-6C47-476C-8B54-B79B2C37E96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A92DA9-6C47-476C-8B54-B79B2C37E96E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0D63942-B4EE-4D3C-AE29-AC96A9275CCB} = {453ABFE4-5A40-4914-8870-A2B481A77C69}
+		{90B5F877-C0AD-4CE6-A2FA-AC62386E26E1} = {453ABFE4-5A40-4914-8870-A2B481A77C69}
+		{58827EAD-A8EB-4A8C-ADA2-0F2CDC00430A} = {92C18D7C-BE23-4C88-B41A-7BFA1FA9372B}
+		{CECE4C01-E405-4B7C-90AD-86F134DDF54A} = {92C18D7C-BE23-4C88-B41A-7BFA1FA9372B}
+	EndGlobalSection
+EndGlobal

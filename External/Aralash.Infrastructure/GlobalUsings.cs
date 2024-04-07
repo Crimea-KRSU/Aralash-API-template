@@ -1,0 +1,20 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Options;
+global using System.Security.Authentication;
+global using System.Reflection;
+global using System.Security.Claims;
+global using System.Text;
+global using MediatR;
+
+global using Aralash.Domain.Constants;
+global using Aralash.Domain.Models;
+global using Aralash.Domain.Options;
+global using Aralash.Utilities;
+global using Aralash.Domain.Entites;
+global using Aralash.Domain.Abstractions;
+global using Aralash.Domain.Abstractions.Security;
+global using Aralash.Infrastructure.Data;
+global using Aralash.Infrastructure.Security;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
